@@ -41,7 +41,6 @@ public class Main {
 		ArrayList<ArrayList<Node>> inputList = new ArrayList<>();
 		int id = 0;
 		int num = 1;
-		ArrayList<Node> intList2 = new ArrayList<>();
 		//take input as two dimensional array
 		while(in.hasNextInt()) {
 			ArrayList<Node> intList = new ArrayList<>();
@@ -49,7 +48,6 @@ public class Main {
 				int distance = in.nextInt();
 				Node node = new Node(id, distance);
 				intList.add(node);
-				intList2.add(node);
 				id += 1;
 			}
 			inputList.add(intList);
